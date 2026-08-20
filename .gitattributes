@@ -11,6 +11,7 @@
 *.ini text eol=lf
 *.toml text eol=lf
 *.txt text eol=lf
+*.snapshot text eol=lf
 LICENSE text eol=lf
 NOTICE text eol=lf
 

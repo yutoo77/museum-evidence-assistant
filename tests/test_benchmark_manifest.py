@@ -26,9 +26,7 @@ def test_baseline_manifest_hashes_match_the_frozen_public_artifacts():
     recorded = manifest["sha256"]
     files = {
         "config_yaml": Path("config.yaml"),
-        "requirements_snapshot_txt": Path(
-            "benchmarks/rag_v1/requirements_snapshot.txt"
-        ),
+        "environment_snapshot": Path("benchmarks/rag_v1/environment.snapshot"),
         "legacy_evaluation_questions_json": Path("evaluation_questions.json"),
         "benchmark_cases_jsonl": Path("benchmarks/rag_v1/cases.jsonl"),
         "benchmark_case_schema_json": Path("benchmarks/rag_v1/case.schema.json"),

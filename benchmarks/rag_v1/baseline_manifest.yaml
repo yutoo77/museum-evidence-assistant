@@ -28,7 +28,7 @@ rag_config:
 
 sha256:
   config_yaml: "cff4210723b563a259605055d9f30de29b1611ab239146f78c5a7d9f6c5ec0ce"
-  requirements_snapshot_txt: "36a7c8cdc3feccc1b921568d8983ff3d4394d76660c4228b221cd1e8247ff2fb"
+  environment_snapshot: "36a7c8cdc3feccc1b921568d8983ff3d4394d76660c4228b221cd1e8247ff2fb"
   legacy_evaluation_questions_json: "02681a11c0bac59a6714076141702126d2f16094ab70b73278e449f98d6b5ce1"
   benchmark_cases_jsonl: "b2ca40dfd22945075a3ec825316b690973fe5cbdac41c4cca7841cdef9c725bc"
   benchmark_case_schema_json: "f690493d2c90a8ca5430c7df318090a387d6cece1fce6ad4fc8ceeb754e9f650"
