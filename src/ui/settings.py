@@ -50,12 +50,12 @@ def render(services: ApplicationServices) -> None:
 
     with st.expander("このアプリについて"):
         st.markdown(
-            "Museum Desk  \n"
+            "Museum Evidence Assistant  \n"
             "Copyright © 2026 yutoo77  \n"
             "GNU Affero General Public License v3.0で公開されています。  \n"
             "本ソフトウェアは無保証の研究プロトタイプです。"
         )
         st.markdown(
             "[Source code・ライセンスを確認する]"
-            "(https://github.com/yutoo77/museum-desk-local-rag)"
+            "(https://github.com/yutoo77/museum-evidence-assistant)"
         )

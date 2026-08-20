@@ -111,7 +111,7 @@ def render_sidebar_brand() -> None:
         <div class="sidebar-brand">
           <div class="brand-mark">M</div>
           <div>
-            <div class="brand-name">Museum Desk</div>
+            <div class="brand-name">Museum Evidence<br>Assistant</div>
             <div class="brand-subtitle">資料検索・回答支援</div>
           </div>
         </div>
@@ -264,7 +264,12 @@ def apply_accessible_styles() -> None:
             font-weight: 800;
             box-shadow: 0 6px 16px rgba(37, 99, 235, 0.22);
         }
-        .brand-name { color: #1B304C; font-size: 1rem; font-weight: 750; }
+        .brand-name {
+            color: #1B304C;
+            font-size: 0.9rem;
+            font-weight: 750;
+            line-height: 1.2;
+        }
         .brand-subtitle { color: #73869F; font-size: 0.72rem; margin-top: 0.05rem; }
         div.stButton > button,
         div.stDownloadButton > button {

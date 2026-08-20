@@ -2,7 +2,7 @@
 
 ## 対象となる利用形態
 
-Museum Deskは、信頼できる利用者が単一PCで使用する研究プロトタイプです。
+Museum Evidence Assistantは、信頼できる利用者が単一PCで使用する研究プロトタイプです。
 Streamlitは`127.0.0.1`へだけbindし、設定で許可するOllama接続先もloopbackへ
 限定しています。認証、利用者ごとの権限管理、複数人同時利用は実装していません。
 
@@ -60,7 +60,7 @@ Gitの追跡対象だけでなく`data/`と`outputs/`の内容も確認してく
 ## 脆弱性の報告
 
 脆弱性を見つけた場合は、公開Issueへ機密情報や再現用の実データを貼らず、
-[GitHub Private Vulnerability Reporting](https://github.com/yutoo77/museum-desk-local-rag/security/advisories/new)
+[GitHub Private Vulnerability Reporting](https://github.com/yutoo77/museum-evidence-assistant/security/advisories/new)
 から報告してください。
 
 この文書は技術上の脅威モデルを示すもので、法的助言ではありません。

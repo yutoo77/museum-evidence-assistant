@@ -1,12 +1,12 @@
-# Museum Desk — 科学館職員向けローカルRAG
+# Museum Evidence Assistant — 科学館職員向けローカルRAG
 
-[![CI](https://github.com/yutoo77/museum-desk-local-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/yutoo77/museum-desk-local-rag/actions/workflows/ci.yml)
+[![CI](https://github.com/yutoo77/museum-evidence-assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/yutoo77/museum-evidence-assistant/actions/workflows/ci.yml)
 
 科学館内に分散する展示解説・FAQ・案内資料を検索し、**登録資料だけに基づく回答案と根拠**を職員が確認するためのlocal-first RAG prototypeです。
 
 > A local-first, evidence-grounded RAG prototype for science museum staff.
 
-![Museum Deskのホーム画面](docs/images/app-home.jpg)
+![Museum Evidence Assistantのホーム画面](docs/images/app-home.jpg)
 
 `sample_docs/`の施設名、開館時間、利用規則、展示解説はすべて架空です。実在する科学館の公式情報や研究内部資料は含みません。
 
@@ -20,7 +20,7 @@
 
 科学館では、展示解説、職員向けFAQ、イベント資料などが複数のfileへ分散しやすく、必要な情報を探して説明へ利用するまでに時間がかかります。一方、一般的な生成AIへ館内資料を送ることや、根拠のない回答を来館者案内へ使うことにはリスクがあります。
 
-Museum Deskは次の範囲へ問題を絞っています。
+Museum Evidence Assistantは次の範囲へ問題を絞っています。
 
 - 職員がPDF・txt・mdをlocal PCへ登録する
 - 質問に関連する箇所を検索する
@@ -136,8 +136,8 @@ Windows 10／11で実機確認しています。Application codeはmacOS／Linux
 ### 1. Cloneとvirtual environment
 
 ```powershell
-git clone https://github.com/yutoo77/museum-desk-local-rag.git
-cd museum-desk-local-rag
+git clone https://github.com/yutoo77/museum-evidence-assistant.git
+cd museum-evidence-assistant
 py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
