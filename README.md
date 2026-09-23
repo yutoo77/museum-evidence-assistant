@@ -1,5 +1,7 @@
 # Museum Evidence Assistant — 科学館職員向けローカルRAG
 
+> **旧版です。現在の後継版は [Museum Evidence Lab](https://github.com/yutoo77/museum-evidence-lab) です。**
+
 [![CI](https://github.com/yutoo77/museum-evidence-assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/yutoo77/museum-evidence-assistant/actions/workflows/ci.yml)
 
 科学館内に分散する展示解説・FAQ・案内資料を検索し、**登録資料だけに基づく回答案と根拠**を職員が確認するための、ローカル完結型RAGプロトタイプです。
